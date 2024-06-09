@@ -187,6 +187,7 @@ public class LivingEntity extends Entity implements EquipmentHandler {
             EventDispatcher.callCancellable(new EntityFireExtinguishEvent(this, true), () -> entityMeta.setOnFire(false));
         }
 
+        /*
         // Items picking
         if (canPickupItem() && itemPickupCooldown.isReady(time)) {
             itemPickupCooldown.refreshLastUpdate(time);
@@ -205,6 +206,7 @@ public class LivingEntity extends Entity implements EquipmentHandler {
                         }
                     });
         }
+         */
     }
 
     /**

@@ -418,6 +418,7 @@ public class Player extends LivingEntity implements CommandSender, Localizable, 
 
         super.update(time); // Super update (item pickup/fire management)
 
+        /*
         // Experience orb pickup
         if (experiencePickupCooldown.isReady(time)) {
             experiencePickupCooldown.refreshLastUpdate(time);
@@ -433,6 +434,8 @@ public class Player extends LivingEntity implements CommandSender, Localizable, 
                         }
                     });
         }
+
+         */
 
         // Eating animation
         if (isUsingItem()) {
